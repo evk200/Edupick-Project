@@ -1,0 +1,53 @@
+article {
+	height:900px;
+}
+
+.cmnfrm {
+	width:1200px;
+	height:780px;
+	position:relative;
+	top:150px;
+	left:400px;
+	line-height:30px;
+}
+
+li{
+	list-style:none;
+	border:1px solid black;
+	height:30px;
+	float:left;
+	text-align:center;
+}
+#titleli > li{
+	float:left;
+	height:30px;
+	background:#DBDBDB;
+}
+#titleli2 > li{
+	float:left;
+	height:30px;
+	background:#DBDBDB;
+}
+ul:nth-child(5) li:first-child {
+	background:#DBDBDB;
+}
+.cmnul {
+	text-align:center;
+	width:150.5px;
+	height:50px;
+	border:1px solid black;
+	background:#DBDBDB;
+	position:absolute;
+	left:40px;
+	top:-22px;
+	line-height:50px;
+}
+button {
+	zoom:1.5;
+	background:white;
+	border:1px solid black;
+	margin-left:30px;
+	position:relative;
+	left:0px;
+	top:20px;
+}

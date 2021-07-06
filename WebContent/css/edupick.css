@@ -1,0 +1,154 @@
+/*<!-- 최 상단 로고 -->*/
+.img1{
+	display:inline;
+	min-width:180px;
+	max-width:180px;
+	min-height:60px;
+	max-height:60px;
+}
+/*<!-- a 태그의 텍스트 -->*/
+a {
+	text-decoration:none;
+	color:black;
+}
+li {
+	list-style:none;
+}
+/*<!-- 최 상단 로고의 div -->*/
+.headerimg{
+	margin-left:45%;
+	margin-top:3%;
+	width:200px;
+}
+#topmenumain > ul > li > a {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+	display: block;
+	padding: 10px 23px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#topmenumain > ul > li {
+	list-style:none;
+	float:left;
+	margin-left:170px;
+}
+#topmenumain {
+	border-top:1px solid #BDBDBD;
+	border-bottom:1px solid #F2F2F2;
+	height:100px;
+	width:100%;
+}
+/*<!-- 카테고리 이미지 -->*/
+.img2{
+	float:left;
+}
+/*<!-- footer의 회사소개 개인정보처리방침 사업자등록번호 -->*/
+.fer01 > ul > li{
+	float:left;
+}
+/*<!-- 회사소개 위치값 -->*/
+.fer02 {
+	position:relative;
+	min-width:400px;
+	max-width:400px;
+	min-height:90px;
+	max-height:90px;
+	margin-left:27%;
+	bottom:190px;
+}
+/*<!-- footer의 hr 위치값 -->*/
+.hr02{
+	min-width:100%;
+	max-width:100%;
+	margin-top:-2px;
+}
+/*<!-- footer의 회사소개 개인정보처리방침 사업자등록번호 위치값	 -->*/
+.fer01{
+	position:relative;
+	margin-bottom:140px;
+	margin-left:25%;
+	bottom:165px;
+}
+/*<!-- 전화번호,영업시간 위치값 -->*/
+.ct01{
+	position:relative;
+	bottom:340px;
+	margin-left:75%;
+	min-width:300px;
+	max-width:300px;
+}
+/*<!-- footer의 로고 위치값 -->*/
+#img3{
+	min-width:200px;
+	max-width:200px;
+	min-height:100px;
+	max-height:100px;
+	margin-left:200px;
+	margin-top:20px;
+}
+/*<!-- footer의 위치값 -->*/
+footer{
+	background:#f4f4f4;
+	min-width:100%;
+	max-width:100%;
+	min-height:170px;
+	max-height:170px;
+	position:absolute;
+	bottom: 0;
+	margin-left:-5px;
+}
+/*<!-- footer의 회사소개 개인정보처리방침 사업자등록번호 링크의 텍스트 속성 -->*/
+.fer01 > ul > li > a {
+	text-decoration: none;
+	color:black;
+}
+/*<!-- 스크롤바 속성값 -->*/
+::-webkit-scrollbar-track { background-color: white; }
+::-webkit-scrollbar { width: 15px; }
+::-webkit-scrollbar { height: 10px; }
+::-webkit-scrollbar-thumb { 
+	background: linear-gradient(to right, white, orange, white); 
+	}
+
+.menub{
+	 text-decoration:none; 
+	 color:black; 
+	 text-shadow: 1px 1px 1px rgba(0,0,0,0.2); 
+	 letter-spacing: 0.05em;
+	 font-size:25px;
+	 float:left;
+}
+
+html{
+	position:relative;
+	margin:0;
+	min-height: 100%;
+}
+/* footer 크기 */
+.footerdiv{
+	height:100px;
+	margin-top:0%;
+}
+
+.logoutdiv{
+	float:right;
+	width:300px;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:15px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	position:relative;
+	bottom:90px;
+	left:5%;
+}
+
+.logoutdiv > img {
+	margin-left:30px;
+}
+/*<!-- 여기까지 기본틀 -->*/
+
+
+

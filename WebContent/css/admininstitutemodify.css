@@ -1,0 +1,141 @@
+﻿.addfrm {
+	width:1400px;
+	height:700px;
+	position:relative;
+	top:200px;
+	left:350px;
+}
+.addimg{
+	border:2px solid black;
+	width:200px;
+	height:200px;
+	margin-top:0px;
+	text-align:center;
+	position:absolute;
+	left:100px;
+	padding-top:50px;
+}
+.addimg > img {
+	zoom:0.2;
+	padding-left:30px;
+	position:relative;
+	top:0px;
+}
+.minusimg{
+	border:2px solid black;
+	width:200px;
+	height:210px;
+	margin-top:0px;
+	text-align:center;
+	position:absolute;
+	left:100px;
+	top:280px;
+	padding-top:40px;
+}
+.minusimg > div {
+	padding-top:30px;
+}
+.minusimg > div > img {
+	zoom:0.05;
+	float:right;
+	position:relative;
+	right:500px;
+}
+
+.clinfo{
+	border:1px solid black;
+	width:1000px;
+	height:250px;
+	position:absolute;
+	left:350px;
+}
+
+.maininfo{
+	height:250px;
+	width:1000px;
+	position:absolute;
+	top:280px;
+	left:350px;
+}
+.maininfo > div {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.125);
+	border:2px solid black;
+	height:50px;
+	font-size:30px;
+	text-align:center;
+}
+textarea{
+	 resize: none;
+	 width:994px;
+	 height:192px;
+	 border:1px solid black;
+}
+ul , li {
+	list-style:none;
+}
+ul > li {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.125);
+	font-family: 'Jua', sans-serif;
+	font-size:23px;
+	margin-top:22px;
+}
+input {
+	float:right;
+	margin-right:100px;
+	margin-top:5px;
+}
+.clinfo_1{
+	border:1px solid black;
+	width:500px;
+	height:250px;
+}
+.clinfo_2 {
+	border:1px solid black;
+	width:500px;
+	height:250px;
+	position:relative;
+	left:500px;
+	bottom:252px;
+}
+select {
+	width:178px;
+	height:25px;
+	margin-left:40px;
+}
+
+.subbtn{
+	position:absolute;
+	top:220px;
+	left:240px;
+	zoom:2.5;
+	width:100px;
+	height:50px;
+	text-align:center;
+}
+.subbtn > button {
+	background:white;
+	border:1px solid black;
+}
+
+.subnav3{
+	border-right:1px solid gray;
+	background:#BDBDBD;
+	width:245px;
+	height:80px;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	line-height:70px;
+	cursor:pointer;
+	border:1px solid black;
+}
+
+.adminmenu4{
+	height:480px;
+	width:245px;
+	position:absolute;
+	top:560px;
+	left:-240px;
+	margin-left:238px;
+	border:1px solid gray;
+}

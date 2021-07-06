@@ -1,0 +1,75 @@
+﻿a{
+	color:black;
+	text-decoration:none;
+ }
+.navuser{
+	font-size:25px;
+	margin-top:10px;
+	margin-left:10px;
+	cursor:pointer;
+}
+.navuser_1{
+	font-size:20px;
+	margin-left:100px;
+	margin-top:20px;
+	display:none;
+}
+.questfrm{
+	width:1500px;
+	height:750px;
+	position:absolute;
+	top:300px;
+	left:350px;
+}
+
+.questtable{
+	border:1px solid black;
+	width:750px;
+	height:650px;
+	border-collapse:collapse;
+	float:left;
+}
+.questtable2{
+	border:1px solid black;
+	width:750px;
+	height:651px;
+	border-collapse:collapse;
+}
+textarea{
+	width:640px;
+	height:495px;
+	background:white;
+	border:1px solid white;
+	resize: none;
+}
+tr > th {
+	background:#A4A4A4;
+	border:1px solid black;
+}
+td {
+	border:1px solid black;
+	
+}
+input[type=text]{
+	width:262px;
+	height:61px;
+	text-align:center;
+	border:1px solid white;
+	background:white;
+}
+#submit{
+	zoom:2.95272;
+	border:1px solid white;
+	background:#F5D0A9;
+}
+#textbox2{
+	width:500px;
+}
+#fro1{
+	zoom:2;
+	background:white;
+	border:1px solid #848484;
+	font-weight:1000;
+	margin-left:354px;
+	margin-top:15px;
+}

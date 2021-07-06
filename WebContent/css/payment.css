@@ -1,0 +1,132 @@
+﻿.nav1{
+	width:400px;
+	height:1057px;
+	margin:-8px;
+	background:#D8D8D8;
+	float:left;
+}
+.nav2{
+	width:400px;
+	height:1057px;
+	margin:-8px;
+	background:#D8D8D8;
+	float:right;
+}
+.headerdiv{
+	text-align:left;
+	height:100px;
+	border-bottom:1px solid #FE642E;
+}
+.headerdiv2{
+	height:100px;
+	margin-left:392px;
+}
+#img1{
+	padding-top:30px;
+	padding-left:50px;
+}
+.use{
+	font-size:25px;
+	padding-top:30px;
+	padding-left:90px;
+	width:100px;
+	float:left;
+}
+.agree{
+	float:right;
+	width:150px;
+	font-size:25px;
+	margin-right:100px;
+	padding-top:30px;
+}
+input[id=check]{
+	zoom:1.6;
+}
+.maindiv{
+	height:150px;
+	border-top:1px solid #FE642E;
+}
+.maindiv2{
+	font-size:25px;
+	width:300px;
+	padding-top:30px;
+	padding-left:90px;
+	margin-left:391px;
+}
+.maindiv3{
+	float:left;
+	font-size:20px;
+	padding-left:100px;
+	padding-top:20px;
+}
+.maindiv4{
+	font-size:20px;
+	float:right;
+	padding-right:100px;
+	padding-top:20px;
+}
+input[id=checkagree]{
+	margin-left:80px;
+}
+.Wlsmain{
+	height:685px;
+}
+.Wlsmain > div:not(.creditnum){
+	width:103px;
+	height:90px;
+	margin-left:140px;
+	margin-top:50px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+}
+#bank:hover {
+	zoom:1.2;
+}
+.name {
+	height:108px;
+	text-align:center;
+	padding-top:90px;
+	line-height:95px;
+	font-size:30px;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+.nav2 > div + div {
+	height:300px;
+	border-top:1px solid red;
+	border-bottom:1px solid red;
+	margin-top:101px;
+	line-height:70px;
+	padding-left:40px;
+	font-family: 'Jua', sans-serif;
+	font-size:21px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.3);
+}
+
+.payment{
+	height:100px;
+	width:200px;
+	border:1px solid white;
+	display:inline-block;
+	font-size:30px;
+	line-height:90px;
+	text-align:center;
+	margin-left:100px;
+	margin-top:300px;
+	cursor:pointer;
+	background:#FAAC58;
+}
+
+.creditnum {
+	background:#D8D8D8;
+	position:relative;
+	left:85.5%;
+	top:-400px;
+	height:170px;
+	display:none;
+}
+
+.creditnum > button {
+	margin-left:70px;
+	margin-top:10px;
+}

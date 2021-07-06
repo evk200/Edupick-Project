@@ -1,0 +1,47 @@
+﻿a{
+	color:black;
+	text-decoration:none;
+ }
+.navuser{
+	font-size:25px;
+	margin-top:10px;
+	margin-left:10px;
+	cursor:pointer;
+ }
+ .navuser_1{
+	font-size:20px;
+	margin-left:100px;
+	margin-top:20px;
+	display:none;
+ }
+ .frmut{
+	width:auto;
+	height:600px;
+	position:absolute;
+	top:320px;
+	left:450px;
+ }
+ .frmut > div {
+	margin-left:440px;
+	margin-top:40px;
+ }
+ .frmut > div > button {
+	zoom:1.5;
+	margin-left:50px;
+	background:white;
+	border:1px solid black;
+ }
+ .usertable{
+	border:1px solid black;
+	width:700px;
+	height:400px;
+	margin-left:250px;
+	border-collapse:collapse;
+ }
+ th , td{
+	border:1px solid gray;
+ }
+ td > input {
+	text-align:center;
+	margin-left:50px;
+ }

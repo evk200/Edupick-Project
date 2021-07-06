@@ -1,0 +1,52 @@
+﻿.cladmain {
+	width:1400px;
+	height:700px;
+	position:relative;
+	left:350px;
+	top:150px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.125);
+	font-family: 'Jua', sans-serif;
+}
+.cladmain > div{
+	border:1px solid blue;
+}
+ul , li {
+	list-style:none;
+}
+#main1 {
+	border:1px solid black;
+	width:650px;
+	height:350px;
+	position:relative;
+	left:350px;
+}
+#main1 > li {
+	position:relative;
+	margin-top:15px;
+}
+#main2 {
+	border:1px solid black;
+	width:650px;
+	height:230px;
+	position:relative;
+	left:350px;
+}
+#main2 > li {
+	margin-top:20px;
+}
+li {
+	font-size:25px;
+}
+input {
+	position:relative;
+	top:-5px;
+}
+button {
+	zoom:2;
+	margin-left:100px;
+	margin-top:10px;
+	position:relative;
+	left:230px;
+	background:white;
+	border:1px solid black;
+}

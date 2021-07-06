@@ -1,0 +1,66 @@
+.crpfrm {
+	width:1200px;
+	height:600px;
+	position:relative;
+	top:150px;
+	left:450px;
+}
+li {
+	border:1px solid black;
+	width:300px;
+	float:left;
+	height:50px;
+	list-style:none;
+	font-size:20px;
+	text-align:center;
+	line-height:50px;
+}
+#exception ,#exception2 {
+	text-align:left;
+}
+input {
+	float:left;
+	text-align:center;
+	font-size:20px;
+}
+li:nth-child(odd) {
+	background:#DBDBDB;
+	width:200px;
+}
+
+ul:nth-child(2) li:nth-child(2) , ul:nth-child(7) li:nth-child(2), ul:nth-child(3) li:nth-child(2) {
+	width:804px;
+}
+
+input[name=text] {
+	height:44px;
+	width:292px;
+}
+input[name=text2] {
+	height:44px;
+	width:797px;
+}
+input[name=radio1] , input[name=yn] {
+	zoom:1.5;	
+}
+input[name=radio1] {
+	position:relative;
+	top:8px;
+	left:95px;
+	margin-left:80px;
+}
+input[name=yn] {
+	position:relative;
+	top:8px;
+	left:35px;
+	margin-left:20px;
+}
+
+#cdlist {
+	zoom:1.7;
+	background:white;
+	border:1px solid black;
+	position:relative;
+	top:300px;
+	right:320px;
+}

@@ -1,0 +1,23 @@
+﻿$(document).ready(function(){
+	$(".btn1").click(function(){
+		$(location).attr('href','enrolment.do');
+	});
+	$("#creditbtn20").click(function(){
+		$(location).attr('href','enrolment.do');
+	});
+	$("#creditbtn21").click(function(){
+		$(location).attr('href','enrolment.do');
+	});
+	$("#creditbtn22").click(function(){
+		$(location).attr('href','enrolment.do');
+	});
+	$("#modifybtn10").click(function(){
+		$(location).attr('href','paymentmodify.do');
+	});
+	$("#modifybtn11").click(function(){
+		$(location).attr('href','paymentmodify.do');
+	});
+	$("#modifybtn12").click(function(){
+		$(location).attr('href','paymentmodify.do');
+	});
+});

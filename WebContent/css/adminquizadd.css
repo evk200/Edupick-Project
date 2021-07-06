@@ -1,0 +1,79 @@
+.quizplusfrm {
+	border:1px solid black;
+	width:1200px;
+	height:700px;
+	position:relative;
+	left:480px;
+	top:180px;
+	font-size:25px;
+	text-align:center;
+	padding-top:20px;
+}
+input {
+	width:500px;
+	margin-left:50px;
+	height:20px;
+}
+
+input[type=text] {
+	width:500px;
+	height:120px;
+	margin-left:0px;
+}
+
+#rsize {
+	width:500px;
+	height:30px;
+}
+
+.quizdiv1 {
+	position:relative;
+	top:-80px;
+	left:-220px;
+}
+
+.quizdiv2 {
+	position:relative;
+	left:-207px;
+	top:-15px;
+}
+
+select {
+	zoom:1.7;
+	margin-left:10px;
+}
+
+li {
+	list-style:none;
+}
+
+#quizsave {
+	zoom:1.5;
+	background:white;
+	border:1px solid black;
+	margin-top:10px;
+}
+
+#quizlist , #quizmodify {
+	zoom:1.5;
+	background:white;
+	border:1px solid black;
+	margin-top:50px;
+}
+
+#poalign {
+	position:relative;
+	left:0px;
+}
+
+#bofrm > div:not(.quizdiv1) {
+	border:1px solid black;
+}
+
+#bofrm > ul > li {
+	border:1px solid black;
+}
+
+#bofrm > ul {
+	padding-left:0px;
+}

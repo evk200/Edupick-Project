@@ -1,0 +1,64 @@
+﻿.starfrm{
+	width:1500px;
+	height:750px;
+	position:absolute;
+	top:300px;
+	left:350px;
+}
+.startable{
+	border:1px solid black;
+	width:750px;
+	height:650px;
+	border-collapse:collapse;
+	float:left;
+}
+.startable2{
+	border:1px solid black;
+	width:750px;
+	height:651px;
+	border-collapse:collapse;
+}
+textarea{
+	width:640px;
+	height:495px;
+	background:white;
+	border:1px solid white;
+	resize: none;
+}
+tr > th {
+	background:#A4A4A4;
+	border:1px solid black;
+}
+td {
+	border:1px solid black;
+	
+}
+input[type=text]{
+	width:262px;
+	height:61px;
+	text-align:center;
+	border:1px solid white;
+	background:white;
+}
+#submit2{
+	zoom:2.95272;
+	border:1px solid white;
+	background:#F5D0A9;
+}
+#textbox2{
+	width:500px;
+	height:115px;
+}
+#starbtn{
+	zoom:2;
+	background:white;
+	border:1px solid #848484;
+	font-weight:1000;
+	margin-left:354px;
+	margin-top:15px;
+}
+
+#delbtn {
+	width:30px;
+	height:100px;
+}

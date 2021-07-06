@@ -1,0 +1,118 @@
+body{
+		font-family:"留묒� 怨좊뵓";
+		}
+        h1 {
+            padding: 50px 0;
+            font-weight: 400;
+            text-align: center;}
+
+        p {
+            margin: 0 0 20px;
+            line-height: 1.5;}
+
+        .main {
+            min-width: 320px;
+            max-width: 800px;
+            padding: 50px;
+            margin: 0 auto;
+            background: #ffffff;}
+
+        section {
+			
+            display: none;
+            padding: 20px 0 0;
+            border-top: 1px solid #ddd;}
+			
+
+        /*�씪�뵒�삤踰꾪듉 �닲源�*/
+          
+		.main>input {
+              display: none;
+		}  
+		
+		a {
+			text-decoration:none;
+			color:black;
+		}
+
+        label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #bbb;
+            border: 1px solid transparent;
+		}
+		
+		input[type=radio] {
+			display:none;
+		}
+
+        label:hover {
+            color: #2e9cdf;
+            cursor: pointer;
+		}
+
+        /*input �겢由��떆, label �뒪���씪*/
+        input:checked + label {
+              color: #555;
+              border: 1px solid #ddd;
+              border-top: 2px solid #2e9cdf;
+              border-bottom: 1px solid #ffffff;}
+
+        #tab1:checked ~ #content1,
+        #tab2:checked ~ #content2 {
+        
+			display: block;
+		}
+			
+	#
+	
+
+    #mainWrapper{
+    	
+		margin: 0 auto; /*媛��슫�뜲 �젙�젹*/
+		min-width: 320px;
+        max-width: 800px;
+		
+        padding: 50px 25px;
+	}
+
+
+    .left {
+    	text-align : left;
+    }
+	
+	#div {clear:both;}
+		
+    
+	
+	.d2{
+	margin-top:100px;
+	}
+	button{
+	
+	left:550px;
+	bottom:225px;
+	width:80px;
+	height:70px;
+	background-color:#FAAC58;
+	border:1px   white;
+	font-size:15px;
+	position: relative;
+	
+	}
+	
+	#content1, #content2 {
+		text-align:center;
+		position:relative;
+		left:0px;
+	}
+	
+	img {
+		zoom:0.45;
+		position:relative;
+		bottom:260px;
+		right:640px;
+	}

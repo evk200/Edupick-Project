@@ -1,0 +1,64 @@
+.pagefrmp {
+	border:1px solid black;
+	width:1200px;
+	height:720px;
+	position:relative;
+	left:400px;
+	top:150px;
+}
+
+h2 {
+	margin-left:520px;
+}
+
+table {
+	width:1200px;
+}
+
+input {
+	width:1073px;
+	height:42px;
+	border-style:none;
+	text-align:center;
+}
+
+td {
+	height:50px;
+	margin-top:30px;
+	border:1px solid black;
+}
+textarea {
+	width:1073px;
+	height:204px;
+	border-style:none;
+	text-align:center;
+	resize:none;
+}
+#noticesubmit , #noticelist ,#noticemodify ,#noticedel , #eduinformationsubmit ,#eduinformationmodify ,#eduinformationdel , #customerservicesubmit ,#customerservicemodify ,#customerservicedel, #customerserviceanswer {
+	zoom:1.5;
+	background:white;
+	border:1px solid black;
+	position:relative;
+	left:600px;
+}
+
+#answerbtn {
+	zoom:1.5;
+	background:white;
+	border:1px solid black;
+	position:relative;
+	left:291px;
+	top:10px;
+}
+
+#ncategory , #ecategory , #ccategory {
+	border:1px solid gray;
+}
+
+.answertable {
+	position:relative;
+	border:1px solid black;
+	bottom:309px;
+	left:700px;
+	display:none;
+}

@@ -1,0 +1,31 @@
+﻿.mainimg1{
+	
+	margin-left:15%;
+	margin-top:210px;
+	zoom:0.9;
+}
+.maincheck{
+	margin-left:14.5%;
+}
+.tophr{
+	position:relative;
+	top:100px;
+}
+article{
+	height:1200px;
+}
+input[type=checkbox] {
+	zoom: 2.0;
+}
+small{
+	font-size:20px;
+}
+#clock{
+	margin-left:35%;
+	margin-top:5%;
+	width:600px; height:250px; 
+	line-height:250px; 
+	color:#black; 
+	font-size:100px; 
+	text-align:center;
+}

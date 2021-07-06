@@ -1,0 +1,175 @@
+#noticeh1 {
+	padding: 50px 0;
+	font-weight: 400;
+	text-align: center;}
+
+#ptag {
+	margin: 0 0 20px;
+	line-height: 1.5;}
+
+.maindmenu {
+	min-width: 320px;
+	max-width: 1100px;
+	padding: 50px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top:100px;
+}
+
+section {
+	font-family:"¸¼Àº °íµñ";
+	padding: 20px 0 0;
+	height:1500px;}
+
+#content1{
+	height:auto;
+	border-top: 1px solid #ddd;
+}
+
+#content2, #content3 {
+	display:none;
+	height:500px;
+	border-top: 1px solid #ddd;
+}
+
+a{
+	text-decoration:none;
+}
+
+#divPaging > div > a {
+	color:black;
+}
+
+/*¶óµð¿À¹öÆ° ¼û±è*/
+  
+.maindmenu > input {
+	  display: none;}  
+
+label {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 15px 25px;
+	font-weight: 600;
+	text-align: center;
+	color: #bbb;
+	border: 1px solid transparent;}
+
+label:hover {
+	color: #2e9cdf;
+	cursor: pointer;}
+
+/*input Å¬¸¯½Ã, label ½ºÅ¸ÀÏ*/
+input:checked + label {
+	  color: #555;
+	  border: 1px solid #ddd;
+	  border-top: 2px solid #2e9cdf;
+	  border-bottom: 1px solid #ffffff;}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+	display: block;}
+	
+#trTable{
+	line-height:2em;		
+	font-family:"¸¼Àº °íµñ";
+	margin:0 auto; 
+	text-align:center;
+	font-size:13pt;
+	padding:5px;
+	min-width: 320px;
+	max-width: 1100px;			
+}
+
+td{ 
+	list-style:none;
+	text-align:center;
+	padding:30;
+	margin:0;
+	font-family:"¸¼Àº °íµñ";
+	float:left;
+	border-bottom:1px solid silver;				
+}
+
+#mainWrapper{
+	margin: 0 auto; /*°¡¿îµ¥ Á¤·Ä*/
+	min-width: 320px;
+	max-width: 800px;
+	padding: 50px 25px;
+}
+
+#divPaging {
+	clear:both; 
+	margin:0 auto; 
+	width:300px; 
+	height:50px;
+	margin-top:100px;	
+	margin-left:500px;	
+}
+
+#divPaging > div {
+	float:left;
+	width: 30px;
+	margin:0 auto;
+	text-align:center;
+ }
+
+.left {
+	text-align : center;	
+}
+.left > a {
+	color:black;
+}
+
+#div {clear:both;}
+	
+#div {
+	margin:0 auto;
+	margin-top: 30px; 
+	width:auto; 
+	height:100px; 
+	text-align:center;
+}	
+
+#div2 {
+	margin:0 auto; 
+	padding:5px;
+	min-width: 320px;
+	max-width: 800px;
+	margin-bottom: 50px;   
+}	
+
+.logoutdiv{
+	all:unset;
+	width:200px;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:15px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	position:relative;
+	bottom:90px;
+	left:90%;
+}
+
+.logoutdiv > img {
+	margin-left:0px;
+}
+
+#searchbtn{
+	width:auto;
+	height:auto;
+	border:3px solid white;
+	background:white;
+	position:relative;
+	top:10px;
+}
+
+#searchbtn > img {
+	width:30px;
+	height:30px;
+}
+
+#topmenumain {
+	width:100%;
+	position:absolute;
+	top:240px;
+}

@@ -1,0 +1,128 @@
+td{ 
+	list-style:none;
+	text-align:center;
+	padding:30;
+	margin:30;
+}
+
+section {
+	margin-top:100px;
+	height:900px;
+}
+
+th{
+	background-color:#c9c9c9;
+}
+
+#td1{
+	background-color:#c9c9c9;
+}
+
+#divPaging {
+	clear:both; 
+	margin:0 auto; 
+	width:300px; 
+	height:50px;
+	margin-top:70px;
+	margin-left:36%;
+}
+
+#divPaging > div > a {
+	text-decoration:none;
+	color:black;
+}
+
+#divPaging > div {
+	float:left;
+	width: 30px;
+	margin:0 auto;
+	text-align:center;
+ }
+ 
+.div1{
+	font-family:"¸¼Àº °íµñ";
+	min-width: 320px;
+	max-width: 800px;
+	padding: 50px;
+	margin: 0 auto;
+}
+	
+#td2, #td3, #td4, #td5{
+	border-bottom:1px solid black;
+	vertical-align:baseline;
+	text-align:center;
+	height:20px;
+}
+
+.nectmain{
+	margin-top:5%;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.logoutdiv{
+	all:unset;
+	width:200px;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:15px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	position:relative;
+	bottom:90px;
+	left:90%;
+}
+
+.logoutdiv > img {
+	margin-left:0px;
+}
+
+header {
+	margin-top:0px;
+	height:270px;
+}
+
+#topmenumain {
+	margin-top:100px;
+}
+
+#noticelist {
+	background:white;
+	border:1px solid black;
+	zoom:1.5;
+}
+
+#imgmaker {
+	width:200px;
+	position:relative;
+	left:860px;
+}
+#img55 {
+	margin-top:20px;
+	width:100px;
+	
+}
+#btn1{
+	margin-left:200px;
+	float:right;
+}
+#b1{
+	position:relative;
+	top:50px;
+	right:40px;
+	background:white;
+	border:1px solid black;
+}	
+#bb2 {
+	background:white;
+	border:1px solid black;
+}
+
+button[name=bb2] {
+	position:relative;
+	top:50px;
+	right:20px;
+	background:white;
+	border:1px solid black;
+}

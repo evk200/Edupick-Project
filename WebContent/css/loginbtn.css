@@ -1,0 +1,14 @@
+.lognbt {
+	position:relative;
+	width:150px;
+	bottom:80px;
+	float:right;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:15px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	position:relative;
+}
+.logoutdiv {
+	position:relative;
+	width:200px;
+}

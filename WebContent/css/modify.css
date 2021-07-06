@@ -1,0 +1,62 @@
+input[value=º¯°æÇÏ±â]{
+	background-color:#FAAC58;
+	border:1px solid #FAAC58;
+	font-size:20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	margin-left:35%;
+}
+.mfd{
+	min-width: 320px;
+	max-width: 800px;
+	padding: 0px;
+	margin: 0;
+	background: #ffffff;
+	font-family:"¸¼Àº °íµñ";
+	margin-top:10%;
+	margin-left:33.1%;
+	margin-bottom:-5.2%;
+}
+.mfd > input{
+	display:none;
+}
+label {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 15px 25px;
+	font-weight: 600;
+	text-align: center;
+	color: #bbb;
+	border: 1px solid transparent;
+}
+
+label:hover {
+	color: #2e9cdf;
+	cursor: pointer;
+}
+fieldset[name=dropuser]{
+	display:none;
+}
+
+input:checked + label {
+	color: black;
+	border: 1px solid #ddd;
+	border-top: 2px solid #2e9cdf;
+	border-bottom: 1px solid #ffffff;
+}
+
+fieldset[name=dropuser]{
+	min-height:100px;
+	max-height:150px;
+	padding-top:40px;
+}
+.dropusertb{
+	min-height:250px;
+}
+.dropusertb td{
+	all: unset;
+}
+.dropusertb tr {
+	text-align:center;
+	min-height:20px;
+	max-height:100px;
+}

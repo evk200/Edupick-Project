@@ -1,0 +1,54 @@
+﻿html { overflow-x:hidden; }
+
+td{ 
+	list-style:none;
+	text-align:center;
+	padding:30;
+	margin:30;
+}
+
+th{
+	background-color:#c9c9c9;
+}
+
+#td1{
+	background-color:#c9c9c9;
+}
+
+article{
+	font-family:"맑은 고딕";
+	min-width: 320px;
+	max-width: 800px;
+	padding: 50px;
+	margin: 0 auto;
+	height:1100px;
+}	
+	
+#td6{
+	text-align: left		
+}
+	
+#b1{
+	padding: 5px;
+	margin-left:700px;
+}
+
+#t3{
+	margin-top:50px;
+}
+
+#td2, #td3, #td4, #td5{
+	border-bottom:1px solid red;
+	vertical-align:baseline;
+	text-align:center;
+	height:20px;	
+}
+
+header {
+	margin-top:0px;
+	height:270px;
+}
+
+#topmenumain {
+	margin-top:100px;
+}

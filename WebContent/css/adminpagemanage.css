@@ -1,0 +1,51 @@
+.pagecode {
+	height:100px;
+	width:1430px;
+	position:relative;
+	left:60px;
+}
+
+.pagecode > ul > li {
+	list-style:none;
+	border:1px solid black;
+	width:450px;
+	height:35px;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	font-size:20px;
+	font-weight:700;
+}
+
+li:nth-child(1) , li:nth-child(2) , li:nth-child(3) {
+	background:#A4A4A4;
+}
+
+#codeput {
+	width:442px;
+	height:29px;
+	text-align:center;
+}
+
+.userup {
+	position:absolute;
+	top:90px;
+	left:1236px;
+	width:auto;
+}
+
+.clplus{
+	 position:absolute;
+	 left:1285px;
+	 top:-50px;
+	 width:200px;
+ }
+ 
+ .mainfrm , .mainfrm2 , .mainfrm3 {
+ 	position:relative;
+ 	top:180px;
+ }
+
+#topcenter {
+	margin-left:600px;
+}

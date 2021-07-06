@@ -1,0 +1,88 @@
+.loginafter{
+	border:2px dashed orange;
+	width:300px;
+	text-align:center;
+	margin-left:1200px;
+	margin-top:-300px;
+	position:absolute;
+}
+.lofer1{
+	border-bottom:1px solid orange;
+	height:130px;
+}
+.lofer2{
+	border-bottom:1px solid orange;
+	height:30px;
+}
+.lofer3{
+	width:100px;
+	height:50px;
+	text-align:center;
+	border-right:1px solid orange;
+	float:left;
+	padding-top:15px;
+}
+.lofer3_2{
+	width:100px;
+	height:50px;
+	text-align:center;
+	border-right:1px solid orange;
+	margin-left:100px;
+	padding-top:15px;
+}
+.lofer3_3{
+	width:96px;
+	height:50px;
+	text-align:center;
+	float:right;
+	margin-top:-50px;
+	margin-left:20px;
+	padding-top:15px;
+}
+#userimg1{
+	width:20%;
+	margin-right:10%;
+	margin-left:0%;
+	margin-top:4%;
+}
+#userimg2{
+	width:10%;
+	margin-left:5%;
+	margin-bottom:1px;
+}
+a{
+	text-decoration:none;
+	color:black;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	font-size:20px;
+}
+#modify{
+	margin-left:50px;
+	zoom:0.8;
+}
+.mypoint{
+	text-align:center;
+	padding-top:5px;
+	border-right:1px solid orange;
+	width:100px;
+	height:30px;
+}
+.quizdiv{
+	width:200px;
+	height:200px;
+	position:fixed;
+	left:90%;
+	bottom:30%;
+}
+
+#point {
+	position:relative;
+	width:150px;
+	left:110px;
+	bottom:25px;
+	text-align:center;
+}
+
+.lognbt {
+	margin-top:30px;
+}

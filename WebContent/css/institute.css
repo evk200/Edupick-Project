@@ -1,0 +1,58 @@
+.box1{
+   border:3px solid black;
+   width:100%;
+   background-color:#c9c9c9;
+   font-size:20px;
+   text-align:center;
+}
+
+#ptag {
+   margin: 0 0 20px;
+   line-height: 1.5;
+}
+
+.t2{
+   border:3px solid black;
+   text-align:center;
+}
+   
+#more{
+
+   margin-left:479px;
+   margin-top:10px;
+   zoom:1.5;
+   background:white;
+   border:1px solid black;
+}
+
+.classD {
+   width:800px;
+   height:1400px;
+   position:relative;
+   left:500px;
+}
+
+tr > td:nth-child(3) {
+   cursor:pointer;
+}
+
+.frmsh {
+	position:relative;
+	bottom:0px;
+}
+
+.lognbt {
+	position:relative;
+	width:150px;
+	bottom:240px;
+	float:right;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:15px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	position:relative;
+}
+.logoutdiv {
+	position:relative;
+	left:0px;
+	width:200px;
+}

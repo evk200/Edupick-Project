@@ -1,0 +1,206 @@
+/*<!--검색 input -->*/
+#input01 {
+	min-height: 50px;
+	max-height: 50px;
+	min-width: 1175px;
+	max-width: 1175px;
+	border: 1px  #e17c0b;
+	background: #ffffff;
+	text-align: center;
+	font-size:20px;
+}
+/*<!-- 연령검색 -->*/
+#option01{
+	min-height: 50px;
+	max-height: 50px;
+	min-width: 250px;
+	border: 1px  #e17c0b;
+	background: #ffffff;
+	border-right: 0.1em solid gray;
+	appearance:none;
+	text-align-last: center;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:20px;
+}
+/*<!-- 지역검색 -->*/
+#option02{
+	min-height: 50px;
+	max-height: 50px;
+	min-width: 250px;
+	border: 1px  #e17c0b;
+	border-right: 0.1em solid gray;
+	appearance:none;
+	text-align-last: center;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:20px;
+}
+/*<!-- 과목검색 -->*/
+#option03{
+	min-height: 50px;
+	max-height: 50px;
+	min-width: 350px;
+	border: 1px  #e17c0b;
+	background: #ffffff;
+	appearance:none;
+	text-align-last: center;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size:20px;
+}
+/*<!-- 검색버튼 -->*/
+#btn01{
+	position:relative;
+	background:white;
+	border:1px solid white;		
+	margin-left:101%;
+	bottom:55px;
+}
+/*<!-- 검색버튼 이미지 -->*/
+#img4{
+	min-width:60px;
+	max-width:60px;
+	min-height:60px;
+	max-height:60px;
+}
+/*<!-- 검색폼태그 위치값,스타일 -->*/
+.frmsh{
+	border: 4px solid #e17c0b;
+	background: #ffffff;
+	min-height: 58px;
+	max-height: 58px;
+	min-width: 1190px;
+	max-width: 1190px;
+	margin-top:90px;
+	margin-left:18%;
+	border-radius: 5px;
+}
+/* 검색박스 */
+.search01{
+	min-height: 58px;
+	max-height: 58px;
+}
+/* 상단배너 이미지 */
+#img5{
+	border:1px solid orange;
+	width:270px;
+	height:300px;
+	margin-bottom:120px;
+}
+#img5_2{
+	border:1px solid orange;
+	width:270px;
+	height:300px;
+	margin-bottom:120px;
+}
+#movebanner, #movebanner2, #movebanner3, #movebanner4, #movebanner5, #movebanner6 {
+	zoom:2.0;
+	position:relative;
+	top:65px;
+	right:157px;
+	height:30px;
+}
+
+#movebanner5, #movebanner6 {
+	position:relative;
+	right:85px;
+}
+
+/* 상단배너의div */
+.imgbanner , .imgbanner2 {
+	margin-left:29%;
+	margin-bottom:30px;
+	margin-top:50px;
+	min-width:650px;
+	max-width:650px;
+	min-height:350px;
+	max-height:350px;
+}
+
+.imgbanner3 {
+	margin-left:29%;
+	margin-bottom:30px;
+	margin-top:50px;
+	min-width:650px;
+	max-width:650px;
+	min-height:350px;
+	max-height:350px;
+	display:none;
+}
+
+.imgbanner2 {
+	display:none;
+}
+
+/* 로그인 이미지 */
+#img6{
+	min-width:50px;
+	max-width:50px;
+	min-height:50px;
+	max-height:50px;
+}
+/* 로그인 이미지 */
+#img7{
+	min-width:40px;
+	max-width:40px;
+	min-height:40px;
+	max-height:40px;
+}
+/* 로그인 이미지 */
+#img8{
+	min-width:40px;
+	max-width:40px;
+	min-height:40px;
+	max-height:40px;
+}
+/* 움직이는 배너의 제목이미지 */
+#img9{
+	min-width:40px;
+	max-width:40px;
+	min-height:40px;
+	max-height:40px;
+}
+/* 로그인 */
+.login{
+	border:2px dashed orange;
+	min-width:300px;
+	max-width:300px;
+	min-height:200px;
+	max-height:200px;
+	text-align:center;
+	margin-left:1200px;
+	margin-top:-300px;
+}
+/* 로그인 링크 */
+.login > div > a {
+	text-decoration: none;
+	font-family: 'Jua', sans-serif;
+	color:black;
+	margin-bottom:0px;
+}
+/* 움직이는 배너 */
+.subbanner_main{
+	border:2px solid orange;
+	min-width:805px;
+	max-width:805px;
+	min-height:50px;
+	max-height:50px;
+	margin-top:100px;
+	margin-left:28.8%;
+	text-align:center;
+	font-size:30px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	z-index:1;
+}
+/* 로그인버튼 */
+.lognbt{
+	margin-top:181px;
+}
+
+article {
+	margin-top:200px;
+}
+
+#topmenumain {
+	width:100%;
+	position:absolute;
+	top:310px;
+}	

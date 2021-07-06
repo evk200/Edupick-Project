@@ -1,0 +1,77 @@
+﻿#h1_1{
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	text-align:center;
+}
+.h1_1{
+	margin-top:100px;		
+	margin-left:36.7%;
+	max-width:26%;
+	border:1px solid #A4A4A4;
+	border-top:2px solid black;
+}
+.hr02{
+	margin-top:0px;
+}
+.mainne{
+	text-align:center;
+}
+.hrber{
+	border-top:1px solid #FA5858;
+	border-bottom:1px solid #FA5858;
+	margin-top:5%;
+	margin-left:37%;
+	width:26%;
+}
+form[name=joincp] > div > a {
+	font-size:30px;
+	text-decoration: none;
+	margin-left:42%;
+	border: 1px solid white;
+	text-shadow: 0px -2px rgba(0, 0, 0, 0.44);
+	padding:10px 20px 10px 20px;
+	transition:all 0.1s;
+	display:inline-block;
+	border-radius: 10px;
+}
+form[name=joincp] > div > a:active{
+	transform: translateY(3px);
+}
+.btn.login{
+	background-color: #1C1C1C;
+	border-bottom:5px solid #1C1C1C;
+	color:white;
+	text-align:center;
+	width:5%;
+	height:5%;
+}
+#loginbtn{
+	margin-top:10px;
+}
+.btn.login:active{
+	border-bottom:1px solid #E6E6E6;
+}
+.btn.home{
+	background-color: #E6E6E6;
+	border-bottom:5px solid #E6E6E6;
+	color:black;
+	width:7%;
+	text-align:center;
+}
+.btn.home:active{
+	border-bottom:1px solid #E6E6E6;
+}
+.joindiv{
+	margin-top:50px;
+}
+[name=joincoac]{
+	height:800px;
+}
+
+header {
+	margin-top:0px;
+	height:270px;
+}
+
+#topmenumain {
+	margin-top:100px;
+}

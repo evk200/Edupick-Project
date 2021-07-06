@@ -1,0 +1,28 @@
+﻿/* PC 탑 버튼 */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(77,77,77,0.1);
+    outline: none;
+    background-color: #212121;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 1px;
+}
+
+/* PC 탑 버튼 Hover */
+#scrollTopBtn:hover {
+  background-color: #47b9e4;
+    border: 1px;
+    border-style: solid; 
+    border-color: rgba(77,77,77,0.1);
+}
+

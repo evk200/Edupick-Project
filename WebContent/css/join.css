@@ -1,0 +1,59 @@
+﻿fieldset{
+	position:relative;
+	top:100px;
+	left:33%;
+	min-width:700px;
+	max-width:700px;
+	min-height:1000px;
+	max-height:1000px;
+	border:1px solid gray;
+	border-top:2px solid black;
+}
+table {
+	min-height:1000px;
+	max-height:1000px;
+	width:100%;
+}
+span{
+	color:red;
+}
+article{
+	height:1500px;
+}
+.ct01{
+	margin-top:40px;
+}
+.hr02{
+	margin-top:0px;
+}
+td{
+	position:relative;
+	left:22%;
+}
+#jointd{
+	position:relative;
+	left:38%;
+	top:10px;
+}
+input[value=회원가입], input[value=다시쓰기]{
+	background-color:#FAAC58;
+	border:1px solid #FAAC58;
+	font-size:20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#addressnum{
+	padding:0;
+	height:20px;
+}
+#addressva{
+	height:20px;
+}
+
+header {
+	margin-top:0px;
+	height:270px;
+}
+
+#topmenumain {
+	margin-top:100px;
+}
